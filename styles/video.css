@@ -43,9 +43,10 @@
   display: grid;
   column-gap: 16px;
   row-gap: 40px;
+ 
 
 }
-@media (min-width: 700px){
+@media (max-width: 700px){
   .video-grid{
     grid-template-columns: 1fr 1fr;
 }
